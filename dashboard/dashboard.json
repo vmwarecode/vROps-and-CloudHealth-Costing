@@ -1,0 +1,804 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1646488632295,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "806b6b55-ea5b-47ba-8859-5a5e1b5971e8",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1646496175148,
+      "lastUpdateUserId": "287ed085-c6ca-4255-b69c-956f1665ed51",
+      "locked": false,
+      "name": "vROps and CloudHealth Costing",
+      "rank": 0,
+      "shared": false,
+      "states": [{
+         "key": "permDashboardTime_dashboard_806b6b55-ea5b-47ba-8859-5a5e1b5971e8",
+         "value": "o%3AdateRange%3Ds%253Alast7Days%5EdateRangeText%3Ds%253A7D"
+      }],
+      "temporary": false,
+      "userId": "287ed085-c6ca-4255-b69c-956f1665ed51",
+      "widgetInteractions": [],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Total Monthly Cost",
+                     "metricKey": "cost|aggrTotalCost",
+                     "metricName": "Cost|Monthly Aggregated Total Cost (US$/Month)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "VMs",
+                     "metricKey": "summary|total_number_vms",
+                     "metricName": "Summary|Total Number of VMs",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Private Cloud Cost (VMware Datacenters)"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 1,
+               "y": 9
+            },
+            "height": 438,
+            "id": "a6c5830d-1c0e-4365-8935-b05433e60da6",
+            "states": [{
+               "key": "permResGrid_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a6c5830d-1c0e-4365-8935-b05433e60da6",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A136.09732055664062%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A128.7525634765625%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A157.28350830078125%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A124.46636962890625%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_cost%252525257CaggrTotalCost%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AmetricValue_%252525253A%252525253A_cost%252525257CaggrTotalCost"
+            }],
+            "title": "Private Cloud Cost (VMware Datacenters)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Month to Date Cost",
+                     "metricKey": "cost|mtdCost",
+                     "metricName": "Cost|MTD Cost",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Azure VMs",
+                     "metricKey": "summary|totalNumberOfVMs",
+                     "metricName": "Summary|Number of Azure Machines",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Public Cloud Cost (MS Azure Regions)"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 7,
+               "y": 9
+            },
+            "height": 438,
+            "id": "c7203a3e-d1ca-42f5-bd05-f02ec03c3013",
+            "states": [{
+               "key": "permResGrid_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_c7203a3e-d1ca-42f5-bd05-f02ec03c3013",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A157.2215576171875%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A143.5419921875%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A145%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_summary%252525257CtotalNumberOfVMs%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AmetricValue_%252525253A%252525253A_summary%252525257CtotalNumberOfVMs"
+            }],
+            "title": "Public Cloud Cost (MS Azure Regions)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 10,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "cost|totalCost",
+                  "name": "Cost|Monthly Cluster Total Cost (US$/Month)"
+               },
+               "metricName": "Monthly Cost",
+               "metricUnit": {
+                  "metricUnitId": "currencymonth",
+                  "metricUnitName": "US$/Month"
+               },
+               "mode": "all",
+               "orangeBound": 10000,
+               "percentileValue": null,
+               "redBound": 20000,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:2_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Most Expensive Private Cloud Clusters (VMware)",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 5000
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 1,
+               "y": 17
+            },
+            "height": 437,
+            "id": "ac5e2dda-683c-4b91-8c15-7ccc98e5bfa7",
+            "title": "Most Expensive Private Cloud Clusters (VMware)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 15,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "cost|mtdCost",
+                  "name": "Cost|MTD Cost"
+               },
+               "metricName": "Month to Date Cost ($)",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 4000,
+               "percentileValue": null,
+               "redBound": 5000,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:3_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Most Expensive Public Cloud Subscriptions (MS Azure)",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 3000
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 7,
+               "y": 17
+            },
+            "height": 437,
+            "id": "4fa6fab5-27bf-4679-bcaa-1ac4239a1d1d",
+            "title": "Most Expensive Public Cloud Subscriptions (MS Azure)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 15,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "cost|monthlyTotalCost",
+                  "name": "Cost|MTD Total Cost (US$)"
+               },
+               "metricName": "Month to Date Cost",
+               "metricUnit": {
+                  "metricUnitId": "currency",
+                  "metricUnitName": "US$"
+               },
+               "mode": "all",
+               "orangeBound": 15,
+               "percentileValue": null,
+               "redBound": 20,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:4_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Most Expensive Private Cloud VMs (VMware)",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 10
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 4,
+               "y": 17
+            },
+            "height": 437,
+            "id": "7446a09c-7545-4926-a1cf-da7156eea3b2",
+            "title": "Most Expensive Private Cloud VMs (VMware)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 15,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "cost|mtdCost",
+                  "name": "Cost|MTD Cost"
+               },
+               "metricName": "Month to Date Cost ($)",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 10,
+               "percentileValue": null,
+               "redBound": 20,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:5_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Most Expensive Public Cloud Services (MS Azure)",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 5
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 10,
+               "y": 17
+            },
+            "height": 438,
+            "id": "27e22198-3536-45a2-bafc-ecef7d804e07",
+            "title": "Most Expensive Public Cloud Services (MS Azure)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 15,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "cost|mtdCost",
+                  "name": "Cost|MTD Cost"
+               },
+               "metricName": "Month to Date Cost ($)",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 100,
+               "percentileValue": null,
+               "redBound": 200,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Most Expensive Public Cloud Regions (MS Azure)",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 50
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 10,
+               "y": 9
+            },
+            "height": 437,
+            "id": "48a0426c-321e-4af8-a43c-3123f730e850",
+            "title": "Most Expensive Public Cloud Regions (MS Azure)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "handleOldColoring": false,
+                     "id": "extModel7347-1",
+                     "isStringMetric": false,
+                     "metricKey": "summary|totalNumberOfVMs",
+                     "metricName": "Summary|Number of Azure Machines",
+                     "metricUnitId": "Number of MS Azure VMs",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:1_::_",
+                     "resourceKindName": "Azure Region",
+                     "unit": "Number of MS Azure VMs",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Public Cloud VMs (MS Azure)"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 437,
+            "id": "a467003e-6fef-4e0d-b2b0-383de2f529c9",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a467003e-6fef-4e0d-b2b0-383de2f529c9",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_stackedGraph_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a467003e-6fef-4e0d-b2b0-383de2f529c9",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a467003e-6fef-4e0d-b2b0-383de2f529c9",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a467003e-6fef-4e0d-b2b0-383de2f529c9",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a467003e-6fef-4e0d-b2b0-383de2f529c9",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a467003e-6fef-4e0d-b2b0-383de2f529c9",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomTheView_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a467003e-6fef-4e0d-b2b0-383de2f529c9",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_a467003e-6fef-4e0d-b2b0-383de2f529c9",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Public Cloud VMs (MS Azure)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "handleOldColoring": false,
+                     "id": "extModel5965-1",
+                     "isStringMetric": false,
+                     "metricKey": "summary|total_number_vms",
+                     "metricName": "Summary|Total Number of VMs",
+                     "metricUnitId": "Number of VMs",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Datacenter",
+                     "unit": "Number of VMs",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Private Cloud VMs (VMware)"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 4,
+               "y": 1
+            },
+            "height": 437,
+            "id": "20d05d48-03c3-42ef-9320-24e65d311959",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_20d05d48-03c3-42ef-9320-24e65d311959",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_20d05d48-03c3-42ef-9320-24e65d311959",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_20d05d48-03c3-42ef-9320-24e65d311959",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_20d05d48-03c3-42ef-9320-24e65d311959",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_20d05d48-03c3-42ef-9320-24e65d311959",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_806b6b55-ea5b-47ba-8859-5a5e1b5971e8_20d05d48-03c3-42ef-9320-24e65d311959",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Private Cloud VMs (VMware)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 15,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "cost|aggrTotalCost",
+                  "name": "Cost|Monthly Aggregated Total Cost (US$/Month)"
+               },
+               "metricName": "Monthly Cost",
+               "metricUnit": {
+                  "metricUnitId": "currencymonth",
+                  "metricUnitName": "US$/Month"
+               },
+               "mode": "all",
+               "orangeBound": 10000,
+               "percentileValue": null,
+               "redBound": 20000,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:0_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Most Expensive Private Cloud Datacenters (VMware)",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 5000
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 4,
+               "y": 9
+            },
+            "height": 437,
+            "id": "bcfaf4c7-cefc-4de4-a734-eb74cb0abb4b",
+            "title": "Most Expensive Private Cloud Datacenters (VMware)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "handleOldColoring": false,
+                     "id": "extModel12801-1",
+                     "isStringMetric": false,
+                     "label": "Monthly Cost",
+                     "link": "",
+                     "metricKey": "cost|aggrTotalCost",
+                     "metricName": "Cost|Monthly Aggregated Total Cost",
+                     "metricUnitId": -1,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Datacenter",
+                     "unit": "Auto",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": 0,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": false},
+               "title": "Private Cloud Datacenter Cost (VMware)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 437,
+            "id": "dae7aaa7-634e-428b-899c-fb69fa5d9e9e",
+            "title": "Private Cloud Datacenter Cost (VMware)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "handleOldColoring": false,
+                     "id": "extModel16609-1",
+                     "isStringMetric": false,
+                     "label": "Month to Date Cost",
+                     "link": "",
+                     "metricKey": "cost|mtdCost",
+                     "metricName": "Cost|MTD Cost",
+                     "metricUnitId": null,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:1_::_",
+                     "resourceKindName": "Azure Region",
+                     "unit": "",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": 0,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": false},
+               "title": "Public Cloud Region Cost (MS Azure)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 7,
+               "y": 1
+            },
+            "height": 437,
+            "id": "aa783dbc-2cd2-4087-bca5-f871d614dd86",
+            "title": "Public Cloud Region Cost (MS Azure)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "CloudHealthAdapter",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "AzureRegion"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Datacenter"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      },
+      {
+         "adapterKindKey": "CloudHealthAdapter",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "AzureSubscription"
+      },
+      {
+         "adapterKindKey": "CloudHealthAdapter",
+         "internalId": "resourceKind:id:5_::_",
+         "resourceKindKey": "AzureService"
+      }
+   ]},
+   "uuid": "74386819-cbc6-42d4-ac3b-11e62c4647d6"
+}
